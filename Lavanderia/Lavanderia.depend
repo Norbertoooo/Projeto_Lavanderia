@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1538887322 source:c:\users\ryzen\documents\lavanderia\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<locale.h>
+
