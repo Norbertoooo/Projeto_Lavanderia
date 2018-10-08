@@ -3,15 +3,19 @@
 #include <string.h>
 #include <time.h>
 #include <locale.h>
-//11/14
+//14/14 ok
 typedef struct{
     char nome[30];
     char telefone[11];
+    char endereco[200];
     double peso_roupa;      //12
     double edredomSolteiro;   //15
     double edredomCasal;      //20
     double paletoBlazer;      //15
     double paletoCompleto;    //20
+    double rede;              //13
+    double passadeiraPeq;     //15
+    double passadeiraGran;    //20
     double tapete;            //15
     double vestido;        //20 a 40
     double vestidoInf;     //10 a 20
@@ -71,6 +75,11 @@ int main()
                 fprintf(p,"Telefone do cliente: ---------------------- %s\n",C.telefone);
                 fflush(stdin);
 
+                printf("Digite o Endereço do cliente: ");
+                scanf("%[^\n]s",C.endereco);
+                fprintf(p,"Endereço do cliente: ---------------------- %s\n",C.endereco);
+                fflush(stdin);
+
                 printf("Digite o peso da roupa do cliente: ");
                 scanf("%lf",&C.peso_roupa);
                 C.valor = C.peso_roupa * 12;
@@ -107,9 +116,21 @@ int main()
                 fprintf(p,"Tapetes: ---------------------------------- %.2lf M²\n",C.tapete);
                 fflush(stdin);
 
-                printf("Digite a quantidade de Vestidos: ");
+                printf("Digite a quantidade de Passadeira de chão/mesa Pequena: ");
+                scanf("%lf",&C.passadeiraPeq);
+                C.valor += C.passadeiraPeq * 15;
+                fprintf(p,"Passadeira de chão/mesa peq --------------- %.2lf UNI\n",C.passadeiraPeq);
+                fflush(stdin);
+
+                printf("Digite a quantidade de Passadeira de chão/mesa Grande: ");
+                scanf("%lf",&C.passadeiraGran);
+                C.valor += C.passadeiraGran * 20;
+                fprintf(p,"Passadeira de chão/mesa Grande: ----------- %.2lf UNI\n",C.passadeiraGran);
+                fflush(stdin);
+
+                printf("Digite a quantidade de Vestidos de Festa: ");
                 scanf("%lf",&C.vestido);
-                fprintf(p,"Vestidos: --------------------------------- %.2lf UNI\n",C.vestido);
+                fprintf(p,"Vestidos de Festa: ------------------------ %.2lf UNI\n",C.vestido);
                 fflush(stdin);
 
                 printf("Digite a quantidade de Vestidos Infantis: ");
