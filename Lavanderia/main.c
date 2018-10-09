@@ -27,10 +27,12 @@ typedef struct{
 
 int main()
 {
+    double vetorVestido[200];
     setlocale(LC_ALL, "");
     Cliente C;
     int escolha;
     char str[100];
+    int i;
     FILE *p;
     char arq[13] = "arquivo.txt";
     p = fopen (arq , " rt " );
@@ -47,6 +49,7 @@ int main()
         printf("Digite 1 para Cadastro\n");
         printf("Digite 2 para Visualisar\n");
         printf("Digite 3 para Limpar a Tela\n");
+        //printf("Digite 4 para Valor Total\n");
         printf("Digite 0 para sair\n");
         printf("=============================\n");
         printf("Entrada: ");
@@ -128,13 +131,29 @@ int main()
                 fprintf(p,"Passadeira de chão/mesa Grande: ----------- %.2lf UNI\n",C.passadeiraGran);
                 fflush(stdin);
 
+
                 printf("Digite a quantidade de Vestidos de Festa: ");
                 scanf("%lf",&C.vestido);
+                printf("Digite o Valor de cada Vestido de Festa: \n");
+                int tam = C.vestido;
+                for(i = 0; i < tam; i++){
+                    printf("Valor do Vestido de Festa %d: ",i+1);
+                    scanf("%lf",&vetorVestido[i]);
+                    C.valor += vetorVestido[i];
+                }
                 fprintf(p,"Vestidos de Festa: ------------------------ %.2lf UNI\n",C.vestido);
                 fflush(stdin);
 
+
+
                 printf("Digite a quantidade de Vestidos Infantis: ");
                 scanf("%lf",&C.vestidoInf);
+                tam = C.vestidoInf;
+                for(i = 0; i < tam; i++){
+                    printf("Valor do Vestido de Festa %d: ",i+1);
+                    scanf("%lf",&vetorVestido[i]);
+                    C.valor += vetorVestido[i];
+                }
                 fprintf(p,"Vestidos Infantis: ------------------------ %.2lf UNI\n",C.vestidoInf);
                 fflush(stdin);
 
@@ -157,13 +176,14 @@ int main()
                 fflush(stdin);
 
                 printf("Valor Total: %.2lf\n",C.valor);
-                fprintf(p,"Valor Total: ------------------------------ %.2lf\n",C.valor);
+                fprintf(p,"Valor Total: ------------------------------ %.2lf R$\n",C.valor);
 
                 fprintf(p,"******************************************************\n");
                // fflush(stdin);
                 printf("=============================\n");
 
                 fclose(p);
+
                 break;
 
             case 2:
