@@ -1,51 +1,9 @@
 
 ******************************************************
-Data e Hora: Oct  9 2018 11:00:51
-Nome do cliente: -------------------------- teste
-Telefone do cliente: ---------------------- 00
-Endereço do cliente: ---------------------- 0
-Peso da roupa do cliente: ----------------- 0,00 KG
-Edredom de Solteiro: ---------------------- 0,00 UNI
-Edredom de Casal: ------------------------- 0,00 UNI
-Paleto e Blazer: -------------------------- 0,00 UNI
-Paletos Completos: ------------------------ 0,00 UNI
-Tapetes: ---------------------------------- 0,00 M²
-Passadeira de chão/mesa peq --------------- 0,00 UNI
-Passadeira de chão/mesa Grande: ----------- 0,00 UNI
-Vestidos de Festa: ------------------------ 2,00 UNI
-Vestidos Infantis: ------------------------ 0,00 UNI
-Camisas Socias de Mangas Longas: ---------- 0,00 UNI
-Camisas Socias de Mangas Curtas: ---------- 0,00 UNI
-Camisas de Malha: ------------------------- 0,00 UNI
-Valor Total: ------------------------------ 40,00
-******************************************************
-
-******************************************************
-Data e Hora: Oct  9 2018 11:14:11
-Nome do cliente: -------------------------- c
-Telefone do cliente: ---------------------- c
-Endereço do cliente: ---------------------- c
-Peso da roupa do cliente: ----------------- 0,00 KG
-Edredom de Solteiro: ---------------------- 0,00 UNI
-Edredom de Casal: ------------------------- 0,00 UNI
-Paleto e Blazer: -------------------------- 0,00 UNI
-Paletos Completos: ------------------------ 0,00 UNI
-Tapetes: ---------------------------------- 0,00 M²
-Passadeira de chão/mesa peq --------------- 0,00 UNI
-Passadeira de chão/mesa Grande: ----------- 0,00 UNI
-Vestidos de Festa: ------------------------ 2,00 UNI
-Vestidos Infantis: ------------------------ 2,00 UNI
-Camisas Socias de Mangas Longas: ---------- 0,00 UNI
-Camisas Socias de Mangas Curtas: ---------- 0,00 UNI
-Camisas de Malha: ------------------------- 0,00 UNI
-Valor Total: ------------------------------ 100,00 R$
-******************************************************
-
-******************************************************
-Data e Hora: Oct  9 2018 11:15:22
-Nome do cliente: -------------------------- v
-Telefone do cliente: ---------------------- 0
-Endereço do cliente: ---------------------- 0
+Data e Hora: Oct  9 2018 23:44:44
+Nome do cliente: -------------------------- santana
+Telefone do cliente: ---------------------- 996427744
+Endereço do cliente: ---------------------- aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 Peso da roupa do cliente: ----------------- 1,00 KG
 Edredom de Solteiro: ---------------------- 1,00 UNI
 Edredom de Casal: ------------------------- 1,00 UNI
@@ -59,5 +17,5 @@ Vestidos Infantis: ------------------------ 1,00 UNI
 Camisas Socias de Mangas Longas: ---------- 1,00 UNI
 Camisas Socias de Mangas Curtas: ---------- 1,00 UNI
 Camisas de Malha: ------------------------- 1,00 UNI
-Valor Total: ------------------------------ 204,00 R$
+Valor Total: ------------------------------ 156,00 R$
 ******************************************************
